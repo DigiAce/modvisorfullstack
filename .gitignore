@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build folders (React, Vue, Angular, etc.)
+frontend/build/
+frontend/dist/
+
+# Backend compiled files
+backend/dist/
+backend/.cache/
+backend/*.log
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+logs/
+*.log
