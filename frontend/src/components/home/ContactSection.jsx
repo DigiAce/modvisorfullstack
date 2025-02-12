@@ -1,4 +1,3 @@
-import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 
@@ -35,7 +34,7 @@ const ContactSection = () => {
         <div className="md:col-span-8 p-10 bg-white">
           {/* Formspree Integration */}
           <form
-            action="https://formspree.io/f/xdkaazva" // Replace with your Formspree URL
+            action="https://formspree.io/f/mnnjbbyz" // Replace with your Formspree URL
             method="POST"
             className="space-y-6"
             target="_blank"
