@@ -18,7 +18,8 @@ const HeroSection = () => {
       img: "/img/c3.png",
       title: "Training",
       description:
-        "ModVisor offers customized training for individuals and corporate teams, focusing on <span style='color: #000; font-weight: bold;'>Excel and practical Financial Modelling skills</span> designed to meet your specific business needs.",
+        "ModVisor offers customized training for individuals and corporate teams, focusing on <span class='highlight-text group-hover:text-yell font-bold'>Excel and practical Financial Modelling skills</span> designed to meet your specific business needs.",
+
       link: "services/training",
     },
   ];

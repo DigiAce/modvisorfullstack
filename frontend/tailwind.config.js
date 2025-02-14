@@ -16,6 +16,7 @@ export default {
         yell:"#ffc541",
         pink: "#f472b6",
       },
+      
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
         leagueGothic: ["Courgette", "cursive"],

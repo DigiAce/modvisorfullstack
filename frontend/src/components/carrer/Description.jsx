@@ -7,7 +7,7 @@ const Discription = () => {
     name: "",
     number: "",
     email: "",
-    subject: "",
+    // subject: "",
     resume: null,
     message: "",
   });
@@ -31,7 +31,7 @@ const Discription = () => {
     formDataToSend.append("name", formData.name);
     formDataToSend.append("number", formData.number);
     formDataToSend.append("email", formData.email);
-    formDataToSend.append("subject", formData.subject);
+    // formDataToSend.append("subject", formData.subject);
     formDataToSend.append("message", formData.message);
     if (formData.resume) {
       formDataToSend.append("resume", formData.resume);
@@ -57,7 +57,7 @@ const Discription = () => {
         name: "",
         number: "",
         email: "",
-        subject: "",
+        // subject: "",
         resume: null,
         message: "",
       });
@@ -169,7 +169,7 @@ const Discription = () => {
                   placeholder="Enter your email"
                 />
               </div>
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <label className="block text-sm font-medium text-slate-700 mb-2">
                   Subject
                 </label>
@@ -181,7 +181,7 @@ const Discription = () => {
                   className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Enter subject"
                 />
-              </div>
+              </div> */}
               <div className="mb-4">
                 <label className="block text-sm font-medium text-slate-700 mb-2">
                   Resume (PDF/Word only)
