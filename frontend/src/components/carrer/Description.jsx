@@ -43,7 +43,7 @@ const Discription = () => {
 
       // eslint-disable-next-line no-unused-vars
       const response = await axios.post(
-        "https://modvisorfullstack-seven.vercel.app/", // Updated endpoint
+        "https://modvisorfullstack-seven.vercel.app/api/submit-form", // Updated endpoint
         formDataToSend,
         {
           headers: {
